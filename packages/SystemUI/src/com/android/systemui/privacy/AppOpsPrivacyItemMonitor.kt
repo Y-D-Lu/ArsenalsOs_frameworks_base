@@ -54,7 +54,7 @@ class AppOpsPrivacyItemMonitor @Inject constructor(
     @VisibleForTesting
     companion object {
         val CAMERA_WHITELIST_PKG = arrayOf(
-            "org.pixelexperience.faceunlock",
+            "an.arsenals.os.faceunlock",
         )
         val OPS_MIC_CAMERA = intArrayOf(AppOpsManager.OP_CAMERA,
                 AppOpsManager.OP_PHONE_CALL_CAMERA, AppOpsManager.OP_RECORD_AUDIO,
